@@ -41,6 +41,8 @@ def generateTeamAssignments(title) {
 
     # Build team assignments dat file
     node scripts/generate_team_assignments.js --dest src/dev/code_coverage/ingest_coverage/team_assignment/team_assignments.txt
+
+    cat src/dev/code_coverage/ingest_coverage/team_assignment/team_assignments.txt
   """, title)
 }
 
